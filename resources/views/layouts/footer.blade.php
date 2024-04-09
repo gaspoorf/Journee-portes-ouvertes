@@ -1,0 +1,9 @@
+<footer>
+    <div>
+        <div>
+            <div>
+                FOOTER
+            </div>
+        </div>
+    </div>
+</footer>

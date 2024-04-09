@@ -1,0 +1,21 @@
+header{
+    background-image: url(/img/header.svg);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    
+
+    padding-left: 10px;
+}
+
+header div a{
+    margin-right: 30px;
+}

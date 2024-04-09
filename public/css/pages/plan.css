@@ -1,0 +1,132 @@
+
+
+#map{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.background-plan{
+    width: 320px; /*  a modifier  */
+    height: 650px; /*  a modifier  */
+    background-color: #2662D7;
+    justify-content: center;
+    position: relative;
+    border-radius: 15px;
+}
+
+
+
+.container-plan{
+    background-color: #2662D7;
+    justify-content: center;
+    width: 320px; /*  a modifier  */
+    height: 650px; /*  a modifier  */
+}
+
+.popup-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    max-width: 414px;
+    max-height: 756px;
+}
+
+.popup {
+    background-color: white;
+    font-family: 'Comfortaa';
+    width: 240px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    gap: 20px;
+    font-family: 'Comfortaa';
+}
+
+.popup-title {
+    text-align: center;
+}
+
+.popup-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+.popup-description {
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.plan{
+    width: 170px;
+}
+
+.plan2{
+    width: 225px;
+}
+
+
+.room:hover rect,
+.room:hover path{
+    transition: fill 0.3s ease-in-out;
+}
+
+.room:hover rect,
+.room:hover path{
+    fill: #5a91fe;
+    cursor: pointer;
+}
+
+g text{
+    cursor: pointer;
+}
+
+
+
+.cls-2, 
+.cls-21,
+.cls-23,
+.cls-24,
+.cls-30,
+.cls-26,
+.cls-17,
+.cls-14,
+.cls-16,
+.cls-46{
+    font-family: 'Comfortaa';
+    font-weight: bolder;
+}
+
+
+.cls-14, .cls-16, .cls-17, .cls-26, .cls-45 {
+    fill: #1d1d1b;
+}
+
+.none{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+

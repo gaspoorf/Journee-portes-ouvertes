@@ -1,0 +1,65 @@
+.blue-btn{
+    border-radius: 10px;
+    background-color: #2662D7;
+    font-family: 'Comfortaa';
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.blue-btn:hover{
+    background-color: #0f49bc;
+}
+
+
+.lvl-btn{
+    border-radius: 10px;
+    background-color: #9baed5;
+    font-family: 'Comfortaa';
+    width: 80px;
+    height: fit-content;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.lvl-btn:hover{
+    background-color: #5a91fe;
+}
+
+.active{
+    background-color: #5a91fe;
+}
+
+
+.green-btn{
+    border-radius: 20px;
+    background-color: green;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    color: white;
+}
+
+.grey-btn{
+    border-radius: 20px;
+    background-color: grey;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.grey-btn:hover{
+    background-color: rgb(89, 87, 87);
+}
